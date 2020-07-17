@@ -40,27 +40,4 @@ contract SimpleStore {
     }
 
     event BoughtItems(uint id, address buyer);
-
-    // function itemToString(Item memory item) private pure returns (string memory str){
-    //     return string(abi.encodePacked(
-    //         "{ ",
-    //         "name : ", item.name, ",",
-    //         "price : ", item.price, ",",
-    //         "owner : ", item.owner, ",",
-    //         "image_hash : ", item.image_hash, ",",
-    //         "sold : ", item.sold, ",",
-    //         "buyer : ", item.buyer,
-    //         " }"
-    //     ));
-    // }
-
-
-    // mapping (address => string) public attestations;
-
-    // function attest(string memory hash) public {
-    //     console.log(msg.sender,"attests to",hash);
-    //     emit Attest(msg.sender,hash);
-    //     attestations[msg.sender] = hash;
-    // }
-    // event Attest(address sender, string hash);
 }
