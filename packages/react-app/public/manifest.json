@@ -2,6 +2,7 @@
   "short_name": "Scaffold-Eth App",
   "start_url": ".",
   "name": "Create Eth App Sample",
+  "start_url": ".",
   "icons": [
     {
       "src": "favicon.ico",

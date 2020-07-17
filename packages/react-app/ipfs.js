@@ -7,7 +7,7 @@ const ipfs = ipfsAPI({host: 'ipfs.infura.io', port: '5001', protocol: 'https' })
 const addOptions = {
   //pin: true,//uncomment for localhost
   wrapWithDirectory: true,
-  //timeout: 240000
+  //timeout: 0
 };
 
 const deploy = async ()=>{
